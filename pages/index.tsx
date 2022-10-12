@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 export default function Index() {
   return (
@@ -11,6 +12,8 @@ export default function Index() {
 
       <main>
         <p>KGT Hello World</p>
+
+        <ConnectButton />
       </main>
     </div>
   );
